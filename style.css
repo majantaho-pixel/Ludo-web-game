@@ -1,1 +1,30 @@
 
+body {
+  background: #0b1c2d;
+  color: white;
+  text-align: center;
+  font-family: Arial;
+}
+
+#board {
+  width: 360px;
+  height: 360px;
+  margin: auto;
+  background: url("assets/board.png");
+  background-size: cover;
+  position: relative;
+}
+
+.token {
+  width: 30px;
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  transition: 0.3s;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
